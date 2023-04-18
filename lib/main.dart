@@ -40,20 +40,6 @@ class _MyHomePageState extends State<MyHomePage> {
     TicketScreen(),
     ProfileScreen()
   ];
-  static const List<Widget> _pages = <Widget>[
-    Icon(
-      Icons.call,
-      size: 150,
-    ),
-    Icon(
-      Icons.camera,
-      size: 150,
-    ),
-    Icon(
-      Icons.chat,
-      size: 150,
-    ),
-  ];
 
   int _selectedScreenIndex = 0;
   void _selectScreen(int index) {
